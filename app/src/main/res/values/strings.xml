@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--definimos el espacio de nombres xliff en la etiqueta resources-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Check your physical activity</string>text_header
+    <string name="text_header">To perform the test should take into account those activities that involve a significant physical effort and cause an acceleration of breathing or heart rate in each of the referred environments.</string>
+    <string name="textEnvWork">Work Activity</string>
+    <string name="textEnvWorkQ1">Does your job require intense physical activity that involves a significant acceleration of breathing or heart rate for at least 10 consecutive minutes?</string>
+    <string name="textEnvWorkQ2">In a typical week, how many days do you do physical activities at work?</string>
+    <string name="NullName">Name</string>
+    <string name="textEnvWorkQ3">On those days when you do physical activity, how much time in minutes do you usually spend on those activities?</string>
+    <string name="textEnvDesp">Displacement Activity</string>
+    <string name="txtEnvOcio">Free Time Activity</string>
+    <string name="halfHour">30m</string>
+    <string name="oneHour">60m</string>
+    <string name="twoHour">120m</string>
+    <string name="textEnvDesplaQ1">Do you walk or use a bicycle for at least 10 consecutive minutes on your commute?</string>
+    <string name="textEnvDesplaQ2">In a typical week, how many days do you walk or cycle for at least 10 consecutive minutes on your commute?</string>
+    <string name="textEnvDesplaQ3">On a typical day, how much time in minutes do you spend walking or cycling to get around?</string>
+    <string name="minDay">The minimum value of the week is 0 days</string>
+    <string name="maxDay">The maximum value of the week is 7 days</string>
+    <string name="checkLack">It is necessary to select the check of the first question</string>
+    <string name="textEnvOcioQ1">In your free time do you do any activity that implies acceleration of breathing or heart rate for at least 10 consecutive minutes?</string>
+    <string name="textEnvOcioQ2">In a typical week, how many days do you do physical activities in your free time?</string>
+    <string name="textEnvOcioQ3">On those days when you do physical activities in your free time, how much time in minutes do you usually spend on those activities?</string>
+    <string name="testButton">Check your Physical Activity level</string>
+    <string name="nivel_activity">PHYSICAL ACTIVITY LEVEL</string>
+    <string name="test_summary_name">Name: <xliff:g id="nameUser" example="Amy">%s</xliff:g></string>
+    <string name="bad">BAD</string>
+    <string name="notGood">NOT GOOD</string>
+    <string name="good">GOOD</string>
+    <string name="veryGood">VERY GOOD</string>
+    <string name="excelent">EXCELENT</string>
+    <string name="test_summary_text">Your level of Physical Activity is <xliff:g id="levelUser" example="Amy">%s</xliff:g></string>
+    <string name="nameRequerided">It is necessary to put your name</string>
+    <string name="resetButton">RESET DATA</string>
+    <string name="dataRequerided">If you select an environment it is necessary to fill in the activity days and select a range of time dedicated to the activity</string>
+    <string name="checkAnyEnvironmentRequerided">It is necessary to fill some environment</string>
+    <string name="symbolMore">+</string>
+    <string name="symbolMinus">-</string>
+    <string name="digitZero">0</string>
+</resources>

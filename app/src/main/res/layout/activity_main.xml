@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--  Main Group View-->
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingStart="20dp"
+        android:paddingTop="16dp">
+
+        <!--  EditText for Name Input-->
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/NullName"
+            android:inputType="textCapWords" />
+
+        <!--  TextView for title work environment-->
+        <TextView
+            style="@style/TitleEnviStyle"
+            android:text="@string/textEnvWork" />
+
+        <!--  CheckBox for first question work environment-->
+        <CheckBox
+            android:id="@+id/EnvWork_checkbox"
+            style="@style/CheckBoxStyle"
+            android:text="@string/textEnvWorkQ1" />
+
+        <!--  TextView for second question work environment-->
+        <TextView
+            style="@style/TextQuestionsStyle"
+            android:layout_marginTop="30dp"
+            android:text="@string/textEnvWorkQ2"/>
+
+        <!--  GroupView for second question work environment buttons-->
+        <LinearLayout
+            style="@style/LinearLayoutButtonsStyle">
+
+            <Button
+                android:id="@+id/workBtnMinus"
+                style="@style/ButtonsQuantityStyle"
+                android:onClick="decrementDays"
+                android:text="@string/symbolMinus" />
+
+            <TextView
+                android:id="@+id/quantityDaysWork"
+                style="@style/TextDaysWeek"/>
+
+            <Button
+                android:id="@+id/workBtnMore"
+                style="@style/ButtonsQuantityStyle"
+                android:onClick="incrementDays"
+                android:text="@string/symbolMore" />
+
+        </LinearLayout>
+
+        <!--  TextView for third question work environment-->
+        <TextView
+            style="@style/TextQuestionsStyle"
+            android:layout_marginTop="16dp"
+            android:text="@string/textEnvWorkQ3" />
+
+        <!--  RadioGroup for third question work environment RadioButton-->
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/RadioGroupsStyle"
+            android:id="@+id/radGroupWork">
+
+            <RadioButton
+                android:id="@+id/radHalfHourWork"
+                style="@style/radioButtonStyle"
+                android:text="@string/halfHour" />
+
+            <RadioButton
+                android:id="@+id/radOneHourWork"
+                style="@style/radioButtonStyle"
+                android:text="@string/oneHour" />
+
+            <RadioButton
+                android:id="@+id/radTwoHourWork"
+                style="@style/radioButtonStyle"
+                android:text="@string/twoHour" />
+        </RadioGroup>
+
+        <!--  View split environments-->
+        <View
+            style="@style/SplitLinestyle"/>
+
+        <!--  TextView for title displacement-->
+        <TextView
+            style="@style/TitleEnviStyle"
+            android:text="@string/textEnvDesp"/>
+
+        <!--  CheckBox for first question displacement environment-->
+        <CheckBox
+            android:id="@+id/EnvDespla_checkbox"
+            style="@style/CheckBoxStyle"
+            android:text="@string/textEnvDesplaQ1" />
+
+        <!--  TextView for second question displacement environment-->
+        <TextView
+            style="@style/TextQuestionsStyle"
+            android:layout_marginTop="30dp"
+            android:text="@string/textEnvDesplaQ2" />
+
+        <!--  GroupView for second question displacement environment buttons-->
+        <LinearLayout
+            style="@style/LinearLayoutButtonsStyle">
+
+
+            <Button
+                android:id="@+id/desplaBtnMinus"
+                style="@style/ButtonsQuantityStyle"
+                android:onClick="decrementDays"
+                android:text="@string/symbolMinus" />
+
+            <TextView
+                style="@style/TextDaysWeek"
+                android:id="@+id/quantityDaysDespla" />
+
+            <Button
+                android:id="@+id/desplaBtnMore"
+                style="@style/ButtonsQuantityStyle"
+                android:onClick="incrementDays"
+                android:text="@string/symbolMore" />
+
+        </LinearLayout>
+
+        <!--  TextView for third question displacement environment-->
+        <TextView
+            style="@style/TextQuestionsStyle"
+            android:layout_marginTop="16dp"
+            android:text="@string/textEnvDesplaQ3" />
+
+        <!--  RadioGroup for third question displacement environment RadioButton-->
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/RadioGroupsStyle"
+            android:id="@+id/radGroupDespla">
+
+            <RadioButton
+                android:id="@+id/radHalfHourDespla"
+                style="@style/radioButtonStyle"
+                android:text="@string/halfHour" />
+
+            <RadioButton
+                android:id="@+id/radOneHourDespla"
+                style="@style/radioButtonStyle"
+                android:text="@string/oneHour" />
+
+            <RadioButton
+                android:id="@+id/radTwoHourDespla"
+                style="@style/radioButtonStyle"
+                android:text="@string/twoHour" />
+        </RadioGroup>
+
+        <!--  View split environments-->
+        <View
+            style="@style/SplitLinestyle"/>
+
+        <!--  TextView for title free time-->
+        <TextView
+            style="@style/TitleEnviStyle"
+            android:text="@string/txtEnvOcio"/>
+
+        <!--  CheckBox for first question free time environment-->
+        <CheckBox
+            android:id="@+id/EnvOcio_checkbox"
+            style="@style/CheckBoxStyle"
+            android:text="@string/textEnvOcioQ1" />
+
+        <!--  TextView for second question free time environment-->
+        <TextView
+            style="@style/TextQuestionsStyle"
+            android:layout_marginTop="30dp"
+            android:text="@string/textEnvOcioQ2" />
+
+        <!--  GroupView for second question free time environment buttons-->
+        <LinearLayout
+            style="@style/LinearLayoutButtonsStyle">
+
+
+            <Button
+                android:id="@+id/ocioBtnMinus"
+                style="@style/ButtonsQuantityStyle"
+                android:onClick="decrementDays"
+                android:text="@string/symbolMinus" />
+
+            <TextView
+                style="@style/TextDaysWeek"
+                android:id="@+id/quantityDaysOcio" />
+
+            <Button
+                android:id="@+id/ocioBtnMore"
+                style="@style/ButtonsQuantityStyle"
+                android:onClick="incrementDays"
+                android:text="@string/symbolMore" />
+
+        </LinearLayout>
+
+        <!--  TextView for third question free time environment-->
+        <TextView
+            style="@style/TextQuestionsStyle"
+            android:layout_marginTop="16dp"
+            android:text="@string/textEnvOcioQ3" />
+
+        <!--  RadioGroup for third question free time environment RadioButton-->
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/RadioGroupsStyle"
+            android:id="@+id/radGroupOcio">
+
+            <RadioButton
+                android:id="@+id/radHalfHourOcio"
+                style="@style/radioButtonStyle"
+                android:text="@string/halfHour" />
+
+            <RadioButton
+                android:id="@+id/radOneHourOcio"
+                style="@style/radioButtonStyle"
+                android:text="@string/oneHour" />
+
+            <RadioButton
+                android:id="@+id/radTwoHourOcio"
+                style="@style/radioButtonStyle"
+                android:text="@string/twoHour" />
+        </RadioGroup>
+
+        <!--  GroupView for final submit buttons-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp">
+
+            <!--  Button for testing physical activity-->
+            <Button
+                android:id="@+id/testButton"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_centerHorizontal="true"
+                android:onClick="testClic"
+                android:text="@string/testButton" />
+
+            <!--  Button for reset data-->
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:onClick="reset"
+                android:text="@string/resetButton" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

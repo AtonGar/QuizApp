@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--definimos el espacio de nombres xliff en la etiqueta resources-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Comprueba tu actividad física</string>
+    <string name="text_header">Para realizar el test debera tener en cuenta aquéllas actividades que implican un esfuerzo físico importante y que causan una aceleración de la respiración o del ritmo cardíaco en cada uno de los entornos referidos.</string>
+    <string name="textEnvWork">Actividad en el Trabajo</string>
+    <string name="textEnvWorkQ1">"¿Exige su trabajo una actividad física intensa que implica una aceleración importante de la respiración o del ritmo cardíaco, durante al menos 10 minutos consecutivos? "</string>
+    <string name="textEnvWorkQ2">En una semana típica, ¿cuántos días realiza usted actividades físicas en su trabajo?</string>
+    <string name="NullName">Nombre</string>
+    <string name="textEnvWorkQ3">"En esos días en los que realiza actividades físicas, ¿cuánto tiempo en minutos suele dedicar a esas actividades?  "</string>
+    <string name="textEnvDesp">Actividad en los Desplazamiento</string>
+    <string name="txtEnvOcio">Actividad en el Tiempo Libre</string>
+    <string name="twoHour">120m</string>
+    <string name="oneHour">60m</string>
+    <string name="textEnvDesplaQ1">"¿Camina usted o usa usted una bicicleta al menos 10 minutos consecutivos en sus desplazamientos? "</string>
+    <string name="textEnvDesplaQ2">"En una semana típica, ¿cuántos días camina o va en bicicleta al menos 10 minutos consecutivos en sus desplazamientos? "</string>
+    <string name="halfHour">30m</string>
+    <string name="textEnvDesplaQ3">"En un día típico, ¿cuánto tiempo en minutos pasa caminando o yendo en bicicleta para desplazarse? "</string>
+    <string name="minDay">El mínimo valor de la semana es 0 días</string>
+    <string name="maxDay">El máximo valor de la semana es 7 días</string>
+    <string name="checkLack">Es necesario seleccionar el Check de la primera pregunta</string>
+    <string name="textEnvOcioQ1">¿En su tiempo libre practica usted alguna actividad que implique aceleración de la respiración o del ritmo cardíaco, durante al menos 10 minutos consecutivos?</string>
+    <string name="textEnvOcioQ2">"En una semana típica, ¿cuántos días realiza usted actividades físicas en su tiempo libre? "</string>
+    <string name="textEnvOcioQ3">"En esos días en los que realiza actividades físicas en su tiempo libre, ¿cuánto tiempo en minutos suele dedicar a esas actividades? "</string>
+    <string name="testButton">Comprueba tu nivel de Actividad Física</string>
+    <string name="nivel_activity">NIVEL DE ACTIVIDAD FÍSICA</string>
+    <string name="test_summary_name">Nombre: <xliff:g id="nameUser" example="Amy">%s</xliff:g></string>
+    <string name="bad">MALA</string>
+    <string name="good">BUENA</string>
+    <string name="notGood">NO BUENA</string>
+    <string name="veryGood">MUY BUENA</string>
+    <string name="excelent">EXCELENTE</string>
+    <string name="test_summary_text">Su nivel de Actividad Física es <xliff:g id="levelUser" example="Amy">%s</xliff:g></string>
+    <string name="nameRequerided">Es necesario poner su nombre</string>
+    <string name="resetButton">LIMPIAR DATOS</string>
+    <string name="dataRequerided">Si selecciona un entorno es necesario cumplimentar los dias de actividad y seleccionar un rango de tiempo dedicado a la actividad</string>
+    <string name="checkAnyEnvironmentRequerided">Es necesario cumplimentar algun entorno</string>
+</resources>
